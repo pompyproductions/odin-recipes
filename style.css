@@ -1,4 +1,38 @@
+h1, h2, h3, p, li, a {
+    font-family: 'Cousine', monospace;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p, li, .return-link {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 img {
     max-width: auto;
     height: 500px;
+}
+
+.return-link {
+    color: chocolate;
 }
